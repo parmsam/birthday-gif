@@ -7,7 +7,9 @@ ageEl.textContent = 15;
 const urlParams = new URL(window.location.toLocaleString()).searchParams;
 const name_param = urlParams.get("name"); //get name param
 const age_param = urlParams.get("age"); //get age param
-if ( urlParams.has('name')) {
+if(urlParams.has("name")) {
     nameEl.textContent = name_param;
-    ageEl.textContent = age_param;
+} 
+if(urlParams.has("age")) {
+    nameEl.textContent = age_param;
 } 
