@@ -55,23 +55,23 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
-#gift-img-happy:hover {
+#gift-img-happy:hover, #gift-img-happy:active{
     background-image: url("images/happy.gif");
 }
 
-#gift-img-hot:hover {
+#gift-img-hot:hover, #gift-img-hot:active{
     background-image: url("images/dog-reaction.gif");
 }
 
-#gift-img-genius:hover {
+#gift-img-genius:hover, #gift-img-genius:active{
     background-image: url("images/genius.gif");
 }
 
-#gift-img-badass:hover {
+#gift-img-badass:hover, #gift-img-badass:active {
     background-image: url("images/badass.gif");
 }
 
-#gift-img-cheers:hover {
+#gift-img-cheers:hover, #gift-img-cheers:active {
     background-image: url("images/cheers.gif");
 }
 
