@@ -11,7 +11,7 @@ if(urlParams.has("name")) {
     nameEl.textContent = name_param;
 } 
 if(urlParams.has("age")) {
-    nameEl.textContent = age_param;
+    ageEl.textContent = age_param;
 } 
 
 document.addEventListener("touchstart", function() { }, true);
