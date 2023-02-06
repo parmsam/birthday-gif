@@ -1,4 +1,4 @@
-# Birthday GIF site
+# Birthday GIF Cad site
 
 Create a slighly custom birthday GIFt card by using name and age URL parameters.
 
